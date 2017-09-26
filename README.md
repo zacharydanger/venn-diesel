@@ -6,6 +6,8 @@ A  simple Venn diagram maker powered by **Glitch**.
 
 Find out more [about Glitch](https://glitch.com/about).
 
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/venn-diesel)
+
 ## Local Development
 
 Install node.js and npm. Clone this repo.
