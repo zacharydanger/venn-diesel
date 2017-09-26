@@ -71,6 +71,7 @@ footer {
   margin-top: 50px;
   padding-top: 25px;
   border-top: 1px solid lightgrey;
+  color: #BBB;
 }
 
 footer > a {
@@ -79,4 +80,10 @@ footer > a {
 
 .nicejob {
   text-decoration: line-through;
+}
+
+#venny {
+  width: 600px;
+  height: 400px;
+  border: 1px solid gray;
 }

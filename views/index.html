@@ -21,34 +21,39 @@
   <body>
     <header>
       <h1>
-        A Dream of the Future
+        VENN DIESEL
       </h1>
+      <p>a venn diagram maker by <a href="https://www.twitter.com/zacharydanger">@zacharydanger</a></p>
     </header>
 
     <main>
-      <p class="bold">Oh hi,</p>
-      <p>Tell me your hopes and dreams:</p>
-      <form>
-        <input type="text" maxlength="100" placeholder="Dreams!">
-        <button type="submit">Submit</button>
-      </form>
-      <section class="dreams">
-        <ul id="dreams">
-        </ul>
-      </section>
+      <p>
+        <canvas id="venny"></canvas>
+      </p>
+      
+      <h2>
+        TODO
+      </h2>
+      <ul>
+        <li><strike>pizza</strike></li>
+        <li>make this dynamic</li>
+        <li>make shareable</li>
+      </ul>
     </main>
 
     <footer>
       <a href="https://glitch.com">
         Remix this in Glitch
       </a>
+      //
+      <a href="http://paperjs.org">Made with Paper.js</a>
     </footer>
 
     <!-- Your web-app is https, so your scripts need to be too -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
             integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
             crossorigin="anonymous"></script>
+    <script src="/paper-full.min.js"></script>
     <script src="/client.js"></script>
-
   </body>
 </html>
