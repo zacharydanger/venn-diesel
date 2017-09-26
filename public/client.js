@@ -23,21 +23,29 @@ var vennIt = function(canvas, a, intersection, b) {
     
   var text = new paper.PointText(new paper.Point(150, 200));
   text.justification = 'center';
-  text.fillColor = 'white';
+  text.fillColor = textcolor;
   text.content = a;
   text.fontSize = fontSize;
     
   var text = new paper.PointText(new paper.Point(300, 200));
   text.justification = 'center';
-  text.fillColor = 'white';
+  text.fillColor = textcolor;
   text.fontSize = fontSize;
   text.content = intersection;
     
   var text = new paper.PointText(new paper.Point(450, 200));
   text.justification = 'center';
-  text.fillColor = 'white';
+  text.fillColor = textcolor;
   text.fontSize = fontSize;
   text.content = b;
+  
+  var watermark = new paper.PointText(new paper.Point(592, 395));
+  watermark.fillColor = 'black';
+  watermark.opacity = 0.5;
+  watermark.content = 'venn-diesel.glitch.me';
+  watermark.fontSize = 18;
+  watermark.fontWeight = 'bold';
+  watermark.justification = 'right';
 }
 
 $(function() {
